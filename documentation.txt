@@ -1,0 +1,11 @@
+This is a program to calculate the salary of a football player based on their performance. The program uses a rating system to determine the player's overall ability and then maps it to a salary bracket.
+
+The program prompts the user to enter data about the player's skills in the following categories: speed, shooting, passing, defending, dribbling, and physicality. It then calculates the overall rating of the player using a formula that takes into account the sum of the skills.
+
+After calculating the overall rating, the program maps it to a salary bracket using predefined values. The salary brackets are defined using two lists: one for the salary values and another for the corresponding rating values.
+
+The program then outputs the player's overall rating and salary on the console. It also stores the player's data in a dictionary data structure, which can be used to retrieve the player's information later on.
+
+Additionally, the program uses the tabulate module to create a table of all the players' data. The table is stored in a .txt file called 'players_data.txt' in the same directory as the program.
+
+Overall, this program provides a simple way to calculate the salary of a football player based on their performance, as well as store and retrieve player data using a dictionary data structure.
